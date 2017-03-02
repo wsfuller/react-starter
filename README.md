@@ -14,3 +14,9 @@ Starter boilerplate code to develop React applications using the latest versions
 * Babel
 * React 0.15.*
 * Sass
+
+
+Roadmap:
+
+* Add POSTCSS
+* Add "no-unused-vars" error messaging
