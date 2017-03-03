@@ -1,11 +1,12 @@
-const css = require('./app.scss');
+const css = require('./index.scss');
 
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-var heyThere = '';
+import App from './components/App.jsx';
+
 
 ReactDOM.render(
-  <h1>Hello, React</h1>,
+  <App />,
   document.getElementById('root')
 );

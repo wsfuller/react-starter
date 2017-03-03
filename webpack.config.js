@@ -3,7 +3,7 @@ var HtmlWebpackPlugin = require('html-webpack-plugin');
 var ExtractTextPlugin = require("extract-text-webpack-plugin");
 
 module.exports = {
-  entry: './src/app.js',
+  entry: './src/index.jsx',
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: './app.bundle.js'
@@ -19,7 +19,7 @@ module.exports = {
         })
       },
       {
-        test: /\.js$/,
+        test: /\.jsx$/,
         exclude: /node_modules/,
         use: "babel-loader"
       }
@@ -29,7 +29,7 @@ module.exports = {
     contentBase: path.join(__dirname, "dist"),
     compress: true,
     port: 9000,
-    stats: "errors-only",
+    //stats: "errors-only",
     open: true,
     overlay: true
   },
