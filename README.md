@@ -18,5 +18,4 @@ Starter boilerplate code to develop React applications using the latest versions
 
 Roadmap:
 
-* Add POSTCSS
 * Add "no-unused-vars" error messaging

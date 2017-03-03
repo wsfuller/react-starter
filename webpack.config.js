@@ -13,15 +13,15 @@ module.exports = {
       {
         test: /\.(s?)css$/,
         use: ExtractTextPlugin.extract({
-            fallbackLoader: 'style-loader',
-            loader: ['css-loader','sass-loader'],
+            fallback: 'style-loader',
+            use: ['css-loader','sass-loader', 'postcss-loader'],
             publicPath: '/dist'
         })
       },
       {
         test: /\.js$/,
         exclude: /node_modules/,
-        loader: "babel-loader"
+        use: "babel-loader"
       }
     ]
   },
