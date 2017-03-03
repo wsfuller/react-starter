@@ -1,6 +1,7 @@
 # React Starter
 
 Starter boilerplate code to develop React applications using the latest versions of modern software.
+Perfered Editor is **Atom**
 
 ### Installation & Commands:
 
@@ -14,6 +15,7 @@ Starter boilerplate code to develop React applications using the latest versions
 * Babel
 * React 0.15.*
 * Sass
+* Axios
 
 
 Roadmap:
