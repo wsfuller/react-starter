@@ -19,6 +19,7 @@ Preferred Editor is **Atom**
 * Sass
 * Axios
 * React Router
+* Redux
 
 
 ### Directory Setup

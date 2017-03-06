@@ -19,7 +19,7 @@ module.exports = {
         })
       },
       {
-        test: /\.jsx$/,
+        test: /\.(js|jsx)$/,
         exclude: /node_modules/,
         use: "babel-loader"
       }
@@ -29,7 +29,7 @@ module.exports = {
     contentBase: path.join(__dirname, "dist"),
     compress: true,
     port: 9000,
-    //stats: "errors-only",
+    stats: "errors-only",
     open: true,
     overlay: true
   },
