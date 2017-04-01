@@ -2,7 +2,6 @@
 
 Starter boilerplate code to develop React applications using the latest versions.
 
-
 ### Installation & Commands:
 
 * `npm install yarn -g`
@@ -19,7 +18,11 @@ the functionality of NPM. From concurrency downloading to creating a `lock` file
 * Babel
 * React 0.15.*
 * Redux 0.15.*
+* React Router
 * Sass
+* Axios
+* React Router
+
 
 
 ### Optional API Mockers
@@ -40,3 +43,30 @@ applications. The following list of resources may help structure your learning.
 
 * [Start Here](https://github.com/petehunt/react-howto)
 * [Learn Webpack 2 Video Series](https://www.youtube.com/playlist?list=PLkEZWD8wbltnRp6nRR8kv97RbpcUdNawY)
+
+
+
+### Directory Setup
+
+    /react-starter
+      /src
+         /components
+           /App
+             App.jsx
+             App.scss
+         /layouts
+           /Layout
+             Layout.jsx
+             Layout.scss
+         index.ejs
+         index.jsx
+         index.scss
+
+
+
+Roadmap:
+
+* Add "no-unused-vars" error messaging
+* Integrate Flexbox grid system
+* Add React Router
+* Add 404 Page
