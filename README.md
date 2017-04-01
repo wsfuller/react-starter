@@ -21,7 +21,6 @@ the functionality of NPM. From concurrency downloading to creating a `lock` file
 * React Router
 * Sass
 * Axios
-* React Router
 
 
 
